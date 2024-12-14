@@ -27,5 +27,5 @@ Here are the screenshots of the app in action:
 <img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/main4.png" width="300" />
 
 ## Responsive Design
-<img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/responsive1.png" width="150" />
-<img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/responsive2.png" width="150" />
+<img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/resposive1.png" width="150" />
+<img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/resposive2.png" width="150" />
