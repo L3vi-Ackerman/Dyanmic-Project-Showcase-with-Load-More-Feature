@@ -21,11 +21,11 @@ This is a simple React application that demonstrates how to load products dynami
 ## Screenshots
 Here are the screenshots of the app in action:
 
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/main1.png" width="300" />
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/main2.png" width="300" />
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/main3.png" width="300" />
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/main4.png" width="300" />
+<img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/main1.png" width="300" />
+<img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/main2.png" width="300" />
+<img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/main3.png" width="300" />
+<img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/main4.png" width="300" />
 
 ## Responsive Design
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/responsive1.png" width="150" />
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/responsive2.png" width="150" />
+<img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/responsive1.png" width="150" />
+<img src="https://raw.githubusercontent.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/refs/heads/main/src/output/responsive2.png" width="150" />
