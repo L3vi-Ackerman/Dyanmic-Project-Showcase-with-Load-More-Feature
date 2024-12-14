@@ -32,14 +32,47 @@
   flex-direction: column;
   gap: 10px;
   align-items: center;
+  cursor: pointer;
   justify-content: center;
 }
+h4{
+  color:cornflowerblue;
+  text-align: center;
+  height: 3vw;
+}
+span {
+  margin: 0px 8px;
+}
+
 .extra-info {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin: 1vw; */
+}
+.div-rating{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.span-price{
+    font-size: 2vw;
+    color: cornflowerblue;
+}
+.star{
+  color: #fff700;
+}
+.span-rating{
+  color: #ffbb00;
+  font-size: 1.1vw;
+  margin: auto 2px;
+}
+
+.span-description{
+  height: 30%;
+  font-size: 0.75vw;
+color: grey;
+
 }
 .cart-div {
   width: 100%;
@@ -49,16 +82,7 @@
   position: relative;
   margin: 1rem;
 }
-p {
-  text-align: center;
-}
-h4{
-    text-align: center;
-    height: 5vw;
-}
-.span-description{
-    height: 30%;
-}
+
 
 .cart-btn {
   position: absolute;
@@ -98,6 +122,86 @@ button:hover {
   color: #666;
   cursor: not-allowed;
 }
-span {
-  margin: 0px 8px;
+
+
+/* Media Queries */
+/* For small tablets and large phones (width <= 768px) */
+@media screen and (max-width: 768px) {
+  .load-more-container {
+    width: 90%; /* Make container narrower for smaller screens */
+  }
+
+  .product-container {
+    grid-template-columns: repeat(2, 1fr); /* Show 2 items per row */
+    gap: 5px;
+  }
+
+  .product {
+    width: 40vw; /* Adjust product card width */
+    padding: 2vw;
+  }
+
+  h4 {
+    font-size: 3vw;
+    height: 5vw;
+  }
+
+  .span-price {
+    font-size: 3vw;
+  }
+
+  .span-rating {
+    font-size: 2vw;
+  }
+
+  .span-description {
+    font-size: 1.5vw;
+  }
+
+  .cart-btn {
+    font-size: 2vw;
+  }
+
+  button {
+    font-size: 2vw;
+    height: 3vw;
+  }
+}
+
+/* For small phones (width <= 480px) */
+@media screen and (max-width: 480px) {
+  .product-container {
+    grid-template-columns: repeat(1, 1fr); /* Show 1 item per row */
+  }
+
+  .product {
+    width: 80vw;
+    padding: 3vw;
+  }
+
+  h4 {
+    font-size: 4vw;
+    height: auto;
+  }
+
+  .span-price {
+    font-size: 4vw;
+  }
+
+  .span-rating {
+    font-size: 2.5vw;
+  }
+
+  .span-description {
+    font-size: 2vw;
+  }
+
+  .cart-btn {
+    font-size: 2.5vw;
+  }
+
+  button {
+    font-size: 2.5vw;
+    height: 4vw;
+  }
 }

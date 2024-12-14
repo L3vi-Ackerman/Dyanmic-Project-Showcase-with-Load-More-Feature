@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { FaStar } from "react-icons/fa";
 import "./Style.css";
 const LoadMoreData = () => {
   const [loading, setLoading] = useState(false);
@@ -48,8 +49,11 @@ const LoadMoreData = () => {
                 />
                 <h4>{item.title}</h4>
                 <div className="extra-info">
-                  <span>{item.price}$</span>
-                  <span>Rating: {item.rating}</span>
+                  <span className="span-price">{item.price}$</span>
+                  <div className="div-rating">
+                    <FaStar className="star" size={20} />
+                    <span className="span-rating">{item.rating}</span>
+                  </div>
                 </div>
                 <span className="span-description">
                   {item.description.split(/\s+/).slice(0, 10).join(" ")}
