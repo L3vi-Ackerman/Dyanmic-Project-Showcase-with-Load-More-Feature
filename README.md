@@ -21,11 +21,11 @@ This is a simple React application that demonstrates how to load products dynami
 ## Screenshots
 Here are the screenshots of the app in action:
 
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/src/ouput/main1.png" width="300" />
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/src/ouput/main2.png" width="300" />
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/src/ouput/main3.png" width="300" />
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/src/ouput/main4.png" width="300" />
+<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/main1.png" width="300" />
+<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/main2.png" width="300" />
+<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/main3.png" width="300" />
+<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/main4.png" width="300" />
 
 ## Responsive Design
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/src/ouput/responsive1.png" width="150" />
-<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/src/ouput/responsive2.png" width="150" />
+<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/responsive1.png" width="150" />
+<img src="https://github.com/L3vi-Ackerman/Dyanmic-Project-Showcase-with-Load-More-Feature/tree/main/src/output/responsive2.png" width="150" />
