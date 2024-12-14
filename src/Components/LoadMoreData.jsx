@@ -5,16 +5,19 @@ const LoadMoreData = () => {
   const [products, setProducts] = useState([]);
   const [count, setCount] = useState(0);
   const [error, setError] = useState(null);
+  const [disableButton, setDisableButton] = useState(false);
 
   const fetchProducts = async () => {
     try {
       setLoading(true);
       const response = await fetch(
-        `https://dummyjson.com/products?limit=20&skip=${count===0?0:count*20}`
+        `https://dummyjson.com/products?limit=20&skip=${
+          count === 0 ? 0 : count * 20
+        }`
       );
       const result = await response.json();
       if (result && result.products && result.products.length) {
-        setProducts((prevData)=> [...prevData,...result.products]);
+        setProducts((prevData) => [...prevData, ...result.products]);
         setLoading(false);
       }
     } catch (err) {
@@ -25,7 +28,11 @@ const LoadMoreData = () => {
   useEffect(() => {
     fetchProducts();
   }, [count]);
-  if (loading) return <div>Loading result! Please Wait...</div>;
+  useEffect(() => {
+    if (products && products.length === 100) setDisableButton(true);
+  }, [products]);
+  if (loading)
+    return <div className="loading-div">Loading result! Please Wait...</div>;
   if (error != null) return <div>Error Occured! {error}</div>;
   return (
     <div className="load-more-container">
@@ -39,16 +46,31 @@ const LoadMoreData = () => {
                   height={150}
                   width={150}
                 />
-                <p>{item.title}</p>
-                <p>{item.price}</p>
+                <h4>{item.title}</h4>
+                <div className="extra-info">
+                  <span>{item.price}$</span>
+                  <span>Rating: {item.rating}</span>
+                </div>
+                <span className="span-description">
+                  {item.description.split(/\s+/).slice(0, 10).join(" ")}
+                  {item.description.split(/\s+/).length > 10 && "..."}
+                </span>
+                <div className="cart-div">
+                  <button className="cart-btn">Add to Cart</button>
+                </div>
               </div>
             ))
           : null}
       </div>
       <div className="button-container">
-        <button onClick={() => setCount(count+1)}>
+        <button
+          disabled={disableButton}
+          onClick={() => setCount(count + 1)}
+          className="load-btn"
+        >
           Load More Products
         </button>
+        {disableButton ? <p>You have reached to 100 products</p> : null}
       </div>
     </div>
   );
